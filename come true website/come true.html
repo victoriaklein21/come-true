@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Come True</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #FC3004, #dc2430);
+      color: #;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 20px;
+    }
+
+    section {
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.9);
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    /* New styles for images */
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+
+    .banner {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* New style for back to top button */
+    #back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to Come True</h1>
+    <img src="banner.jpg" alt="Banner" class="banner">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet lectus euismod, euismod nunc id, malesuada massa. Maecenas pharetra erat id diam vestibulum dapibus. Nullam fermentum, lorem id dictum consequat, ante massa tristique tellus, et bibendum lectus urna id felis. Aenean dignissim aliquam erat, ut finibus felis mollis et.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <img src="about.jpg" alt="About" class="banner">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet lectus euismod, euismod nunc id, malesuada massa. Maecenas pharetra erat id diam vestibulum dapibus. Nullam fermentum, lorem id dictum consequat, ante massa tristique tellus, et bibendum lectus urna id felis. Aenean dignissim aliquam erat, ut finibus felis mollis et.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <img src="products.jpg" alt="Products" class="banner">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet lectus euismod, euismod nunc id, malesuada massa. Maecenas pharetra erat id diam vestibulum dapibus. Nullam fermentum, lorem id dictum consequat, ante massa tristique tellus, et bibendum
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Webpage</title>
+  <style>
+    
+    #back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  
+  <button id="back-to-top" onclick="scrollToTop()">Back to Top</button>
+
+  <script>
+   
+    var backToTopBtn = document.getElementById("back-to-top");
+
+    window.addEventListener("scroll", function() {
+      if (window.pageYOffset > 100) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    });
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>
